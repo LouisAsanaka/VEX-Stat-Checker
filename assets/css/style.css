@@ -1,0 +1,23 @@
+.centered-input{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.center{
+	text-align: center
+}
+
+label {
+    display: block;
+    text-align: center;
+    line-height: 100%;
+    font-size: 2em;
+}
+
+body {
+    background-color: lightblue;
+}
+
+table {
+	background-color: white
+}

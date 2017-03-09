@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+  <title>VEX Team Stats Searcher</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	
+	<script src="assets/js/json-to-table.js"></script>
+  <script src="assets/js/main.js"></script>
+	
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+	<div id="content" class="center">
+		<br><br>
+		<form id="search" class="pure-form">
+				<label for="team">VEX Team Stats Searcher</label>
+		    <input type="text" class="team centered-input" id="team" name="team" size="21" maxlength="120">
+		    <input type="hidden" class="skills-type" name="skills-type" value="2">
+		    <input type="hidden" class="season" name="season" value="Starstruck">
+		</form>
+		<div id="status"></div>
+	</div>
+</body>
+</html>
