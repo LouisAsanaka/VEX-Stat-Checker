@@ -20,11 +20,24 @@
 	<div id="content" class="center">
 		<br><br>
 		<form id="search" class="pure-form" onsubmit="return false;">
-				<label for="team">VEX Team Stats Searcher</label>
-		    <input type="text" class="team centered-input" id="team" name="team" size="21" maxlength="120">
-		    <input type="hidden" class="skills-type" name="skills-type" value="2">
-		    <input type="hidden" class="season" name="season" value="Starstruck">
-		</form>
+      <label for="team">VEX Team Stats Searcher</label>
+      <input type="text" class="centered-input" id="team-id" name="team" size="21" placeholder="Team ID" maxlength="120">
+      <select class="centered-input" id="season">
+        <option>Skyrise</option>
+        <option>Toss Up</option>
+        <option>Sack Attack</option>
+        <option>Gateway</option>
+        <option>Round Up</option>
+        <option>Clean Sweep</option>
+        <option>Elevation</option>
+        <option>Bridge Battle</option>
+        <option>Nothing But Net</option>
+        <option>Starstruck</option>
+        <option>In The Zone</option>
+        <option>Turning Point</option>
+        <option selected>Tower Takeover</option>
+      </select>
+    </form>
 		<div id="status"></div>
 	</div>
 </body>
